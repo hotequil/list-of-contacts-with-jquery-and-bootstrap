@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Lista de contatos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="João Paulo Hotequil">
+        <meta name="description" content="Essa página WEB representa uma pequena lista para você adicionar seus contatos.">
+        <meta name="keywords" content="web, html, html5, css, css3, javascript, js, jquery, jquery-3, bootstrap, bootstrap-4">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="copyright" content="© 2019 João Paulo Hotequil">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="rating" content="general">
+        <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+        <!--adicionar bootstrap e jquery ao npm-->
+        <link rel="stylesheet" href="../stylesheets/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../stylesheets/application.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="../javascripts/application.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h2>Lista de contatos</h2>
+                <p>Aqui é exibido a lista de seus contatos.</p>
+            </div>
+        </header>
+        <main>
+            <div class="content-table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="border-right-table">Nome</th>
+                            <th class="border-right-table">Sobrenome</th>
+                            <th>Idade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border-right-table">Glenn</td>
+                            <td class="border-right-table">Miller</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td class="border-right-table">Scott</td>
+                            <td class="border-right-table">Walker</td>
+                            <td>76</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="dropdown-divider"></div>
+            <div>
+                <div>
+                    <h2>Adicionar contato</h2>
+                    <p>Cadastre seus contatos para serem exebidos na lista.</p>
+                </div>
+                <form id="form">
+                    <div class="form-contact">
+                        <div class="row">
+                            <div class="col">
+                                <label for="name">Nome:</label>
+                                <input type="text" autocomplete="off" class="form-control" id="name" placeholder="Coloque o nome">
+                                <small id="name" class="form-text">Digite o nome corretamente</small>
+                            </div>
+                            <div class="col padding-left-and-right">
+                                <label for="surname">Sobrenome:</label>
+                                <input type="text" autocomplete="off" class="form-control" id="surname" placeholder="Coloque o sobrenome">
+                                <small id="surname" class="form-text">Digite o sobrenome corretamente</small>
+                            </div>
+                            <div class="col">
+                                <label for="age">Idade:</label>
+                                <input type="text" autocomplete="off" class="form-control" id="age" placeholder="Coloque a idade">
+                                <small id="age" class="form-text">Digite a idade corretamente</small>
+                            </div>
+                        </div>
+                        <small id="error" class="form-text text-danger error-danger display-none">Você esqueceu de informar alguma coisa ou digitou algo incorretamente.</small>
+                    </div>
+                    <button type="submit" class="btn btn-fancy" id="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+        <div class="dropdown-divider"></div>
+        <footer>
+            <div class="description-page">
+                <p style="margin: 0;">&copy; Essa página é uma groselha desenvolvida por João Paulo Hotequil</p>
+                <div>
+                    <i>"Idéias e somente idéias podem iluminar a escuridão."</i><span> (Ludwig von Mises).</span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

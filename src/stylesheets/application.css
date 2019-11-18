@@ -1,0 +1,181 @@
+/*colors of program
+color primary = #242B37
+color secondary = #2E2620
+color terciary = #61988E
+color optional one = #A0B2A6
+color optional two = #CBBFBB*/
+
+/*all selectors*/
+body{
+    margin: 0 288px;
+    font-size: 115%;
+    background-color: #fff;
+    color: #2E2620;
+}
+
+header{
+    margin: 64px 0 0 0;
+}
+
+footer{
+    margin: 0 0 64px 0;
+}
+
+h2{
+    margin: 0;
+}
+
+p{
+    margin: 0 0 32px 0;
+}
+
+.table thead th {
+    border-width: 1px !important;
+}
+
+.table{
+    border-radius: .25rem;
+    margin: 0;
+}
+
+.table-bordered{
+    border-radius: .25rem;
+}
+
+.form-contact .row{
+    margin: 0 0 16px 0;
+}
+
+.padding-left-and-right{
+    padding: 0 16px !important;
+}
+
+.col{
+    padding: 0;
+}
+
+.dropdown-divider{
+    border-top: 1px solid #CBBFBB;
+    margin: 32px 0;
+}
+
+.error-danger{
+    margin: 0 0 16px 0 !important;
+}
+
+.display-none{
+    display: none;
+}
+
+.description-page{
+    padding: 16px;
+    background-color: #242B37;
+    border-left: 8px solid rgba(0,0,0,0.46);
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .5s;
+}
+
+.description-page:hover{
+    opacity: .9;
+}
+
+.description-page p, .description-page i, .description-page span{
+    color: #fff !important;
+}
+
+/*buttons and inputs*/
+input[type="text"]{
+    border-color: #CBBFBB !important;
+    color: #2E2620;
+    border-color: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    transition: all;
+    transition-duration: .5s;
+}
+
+input[type="text"]:hover, input[type="text"]:focus, input[type="text"]:active{
+    border-color: none !important;
+    color: #2E2620;
+    outline: 0 !important;
+}
+
+input[type="text"]:hover{
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.26) !important;
+}
+
+input[type="text"]:focus, input[type="text"]:active{
+    border-color: none !important;
+    color: #2E2620;
+    outline: 0 !important;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.26) !important;
+}
+
+.btn-fancy{
+    background-color: #242B37;
+    color: #fff;
+    border-color: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    transition: all;
+    transition-duration: .5s;
+    text-transform: uppercase;
+}
+
+.btn-fancy:active, .btn-fancy:hover{
+    color: #fff;
+    outline: 0 !important;
+    border-color: none !important;
+}
+
+.btn-fancy:active{
+    opacity: .9;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.46) !important;
+}
+
+.btn-fancy:hover{
+    opacity: .9;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.46) !important
+}
+
+/*colors*/
+th, h2{
+    color: #242B37;
+}
+
+td, p, label, small, ::-webkit-input-placeholder, i, span{
+    color: #2E2620 !important;
+}
+
+th, td{
+    border-color: #cbbfbb !important;
+    border-radius: .25rem;
+}
+
+/*table*/
+.content-table{
+    border: 1px solid #cbbfbb;
+    border-radius: .25rem;
+}
+
+.table th{
+    border-top: none !important;
+}
+
+.border-bottom-table{
+    border-bottom: 1px solid #cbbfbb !important;
+}
+
+.border-top-table{
+    border-top: 1px solid #cbbfbb !important;
+}
+
+.border-right-table{
+    border-right: 1px solid #cbbfbb !important;
+}
+
+.border-left-table{
+    border-left: 1px solid #cbbfbb !important;
+}
